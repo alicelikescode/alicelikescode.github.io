@@ -6,7 +6,7 @@ http://www.tooplate.com/view/2082-pure-mix
 
 */
 
-/* Body 
+/* Body
 ------------------------------------- */
 body {
 		background: #ffffff;
@@ -182,7 +182,7 @@ nav a {
   text-decoration: none;
 }
 
-.navicon {  
+.navicon {
   position: relative;
   right: 0;
   display: -webkit-flex;
@@ -203,17 +203,41 @@ nav ul.right {
   right: 0
 }
 
-#nav-menu a {
-  font-weight: 300;
-  font-size: 26px;
-  color: #ffffff;
-  text-transform: uppercase;
-  letter-spacing: 0.3rem;
+#nav-menu   {
+	float: right;
+  padding: 30px 0 0;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
 }
 
 #nav-menu li {
-  list-style: none;
-  padding: 6px;
+	display: inline-block;
+	margin: 4px;
+}
+
+#nav-menu li a {
+    color: #666;
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    padding: 8px 17px;
+    margin-right: 2px;
+    margin-left: 2px;
+    text-transform: uppercase;
+    display: block;
+    text-decoration: none;
+    transition: all 0.4s ease-in-out;
+}
+
+#nav-menu li a:active {
+  background: #111112 !important;
+}
+
+#nav-menu li a:hover,
+#nav-menu li a:focus {
+  background: #111112;
+  color: #ffffff;
 }
 
 .nav-text-light a {
@@ -258,7 +282,7 @@ a.icon {
   padding-right: 20px;
 }
 
-.intro-inner {  
+.intro-inner {
   position: absolute;
   left: 50%;
   top: 50%;
@@ -448,7 +472,7 @@ a.icon {
 /* ========================================== */
 #portfolio {
   text-align: center;
-  padding-top: 3rem;
+  padding-top: 4rem;
   padding-bottom: 6rem;
 }
 
@@ -460,7 +484,7 @@ a.icon {
   position: relative;
   overflow: hidden;
   margin: 0;
-} 
+}
 
 #portfolio .portfolio-thumb .portfolio-overlay {
   background: #141414;
@@ -482,7 +506,7 @@ a.icon {
 
 #portfolio .portfolio-thumb .portfolio-overlay .portfolio-item {
     text-align: center;
-    padding: 30% 20px 20px;
+    padding: 40% 20px 20px;
 }
 
 #portfolio .portfolio-thumb .portfolio-overlay .fa {
@@ -499,39 +523,7 @@ a.icon {
     margin-bottom: 4px;
 }
 
-/*filter css*/
-.filter-wrapper {
-    width: 100%;
-    margin-bottom: 32px;
-    overflow: hidden;
-}
 
-.filter-wrapper li {
-    display: inline-block;
-    margin: 4px;
-}
-
-.filter-wrapper li a {
-    color: #666;
-    font-size: 13px;
-    font-weight: 400;
-    letter-spacing: 2px;
-    padding: 8px 17px;
-    margin-right: 2px;
-    margin-left: 2px;
-    text-transform: uppercase;
-    display: block;
-    text-decoration: none;
-    transition: all 0.4s ease-in-out;
-}
-.filter-wrapper li a:active {
-  background: #111112 !important;
-}
-.filter-wrapper li a:hover,
-.filter-wrapper li a:focus {
-  background: #111112;
-  color: #ffffff;
-}
 
 /*isotope box css*/
 .iso-box-section {
@@ -558,7 +550,7 @@ a.icon {
     width: 100%;
     height: 100%;
     overflow: hidden;
-} 
+}
 
 .fluid-img {
     width: 100%;
@@ -603,7 +595,7 @@ a.icon {
 
 /* blog & single post section styles
 /* ========================================== */
-#blog, 
+#blog,
 #single-post {
   padding-top: 4rem;
   padding-bottom: 6rem;
@@ -649,113 +641,6 @@ a.icon {
 .post-image {
 	margin: 25px 0px;
 }
-
-#single-post .blog-comment,
-#single-post .blog-comment-form {
-  margin-top: 62px;
-}
-
-#single-post .blog-comment h3,
-#single-post .blog-comment-form h3 {
-  padding-bottom: 20px;
-}
-
-#single-post .blog-comment .media {
-  padding-bottom: 22px;
-}
-
-#single-post .blog-comment .media img {
-  padding-right: 14px;
-}
-
-#single-post .blog-comment h4 {
-  font-weight: 700;
-}
-
-#single-post .blog-comment-form .form-control {
-  background: transparent;
-  border: 1px solid #eee;
-  border-radius: 0px;
-  box-shadow: none;
-  font-size: 16px;
-  margin-bottom: 16px;
-  transition: all 0.4s ease-in-out;
-}
-
-#single-post .blog-comment-form input[type="submit"] {
-  background: #111112;
-  border-color: transparent;
-  color: #ffffff;
-  height: 50px;
-}
-
-
-/* contact section styles
-/* ========================================== */
-#contact {
-  padding-top: 5rem;
-  padding-bottom: 0rem;
-}
-
-#contact .fa {
-  font-size: 32px;
-  padding-right: 10px;
-}
-
-#contact #map-canvas  {
-  border: none;
-  width: 100%;
-  height: 300px;
-  margin-top: 40px;
-}
-
-#contact .contact-form {
-  padding-top: 14px;
-}
-
-#contact .form-control {
-  background: transparent;
-  border: 1px solid #eee;
-  border-radius: 0px;
-  box-shadow: none;
-  font-size: 16px;
-  margin-bottom: 16px;
-  transition: all 0.4s ease-in-out;
-}
-
-#contact .form-control:hover {
-  border-color: #f0f0f0;
-}
-
-#contact textarea {min-height: 100px;}
-
-#contact input {height: 50px;}
-
-#contact input[type='submit'] {
-  background: #111112;
-  color: #ffffff;
-  font-size: 15px;
-  font-weight: 400;
-  letter-spacing: 2px;
-  transition: all 0.4s ease-in-out;
-  margin-top: 10px;
-}
-
-#contact input[type='submit']:hover {
-  background: #444;
-}
-
-.contact-submit {
-	width: 50%;
-}
-
-#contact .col-md-4 {
-  background: #fff;
-  padding: 62px 0px 32px 42px;
-  position: relative;
-  bottom: -50px;
-}
-
 
 
 /* footer section styles
