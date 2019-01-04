@@ -678,6 +678,7 @@ a.icon {
 #body-link li {
 	display: inline-block;
 	margin: 4px;
+	outline: 1px solid #666;
 }
 
 #body-link li a {
@@ -686,8 +687,8 @@ a.icon {
     font-weight: 400;
     letter-spacing: 2px;
     padding: 8px 17px;
-    margin-right: 2px;
-    margin-left: 2px;
+    /* margin-right: 2px;
+    margin-left: 2px; */
     text-transform: uppercase;
     display: block;
     text-decoration: none;
