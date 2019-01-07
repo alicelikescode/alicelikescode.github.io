@@ -98,16 +98,159 @@
 
          <div class="wow fadeInUp col-md-offset-1 col-md-10 col-sm-offset-1 col-sm-10" data-wow-delay="2.3s">
          	  <div class="blog-thumb">
+							<p>
+								"Shower Thoughts" is a daily deep cleanse for your mind -- a mood tracking and journaling app utilizing Cognitive Behavioral Therapy principles.  For this project, I worked on my own within a two-week design sprint.
+							</p><br>
 
 							<h1>Challenge</h1>
-					       </div>
          		   <p>The goal of this project is to design an app that (1) focuses on a category of personal wellbeing, (2) pushes the user to commit to a healthier lifestyle, and (3) reflects a fresh, updated image.</p>
 							 <p>
 								 I decided to focus on emotional wellbeing. While the market is already heavily saturated with apps focusing on physical health, emotional health is currently underrepresented in the app space despite this topic trending amongst millennials in recent years. Meanwhile, two-thirds of Americans diagnosed with depression don't get treatment, while those who do seek treatment wait years to get help and are often under-treated. Therefore, I was interested in designing <b>a tool that could provide a way to cope, supplemental treatment, or even a preventative measure for those struggling with emotional wellbeing.</b>
-							 </p>
+							 </p><br>
 
-               <img src="images/blog-img1.jpg" class="img-responsive post-image" alt="Blog">
-               <p>Phasellus eget sem tempus, egestas nisl dapibus, aliquet elit. Ut urna turpis, tempor sit amet massa vitae, pulvinar porttitor magna. Pellentesque dolor lorem, blandit ac congue non, mattis a mi. Vestibulum id accumsan neque. Aenean turpis dui, consectetur in ornare quis, sollicitudin vel mauris. Aliquam eros elit, blandit et tortor non, ornare tincidunt ante.</p>
+							 <h1>Approach</h1>
+							 <p>
+								 The first step was to break down the problem.  Using a Lean UX Canvas, I drafted a few hypotheses along with corresponding business outcomes that could gauge the success of the app.
+								 <img src="images/showerthoughts-leanuxcanvas.jpg" class="img-responsive post-image" alt="Blog">
+							 </p>
+							 <p>
+								 I researched potential competitors -- namely, the top (free) apps featured in this list I found in the App Store...
+								 <img src="images/showerthoughts-appstore.png" class="img-responsive post-screen" alt="screenshot of featured list"></p>
+							 <p>
+								 ...and downloaded them all to test and compare their features.
+								 <img src="images/showerthoughts-featureanalysis.jpg" class="img-responsive post-image" alt="feature analysis">
+							 </p>
+							 <p>
+								While testing many of these apps, I felt overwhelmed by the amount of choices in tasks, features, and navigation.  To differentiate my product, I would position it to feel more "guided" instead of "freeform" -- it should be as clear as possible to the user where to start and what to do.  Additionally, the goal for many of these apps seemed to end with recording feelings, thoughts, or life events rather than pushing the user make progress in their wellbeing.  There was a "blue ocean" when it comes to apps that both guided the user <i>and</i> helped the user to self-improve.
+								 <img src="images/showerthoughts-marketanalysis.jpg" class="img-responsive post-image" alt="market positioning map">
+							 </p>
+						<br>
+
+							 <h1>Discovery</h1>
+							 <p>
+								The next step was to understand my target users -- in this case, busy millenials interested in improving their emotional wellbeing.
+							 </p>
+							 <p>
+								I interviewed 6 individuals to gather qualitative data on their current habits, motivations, and frustrations.<img src="images/showerthoughts-quotes.jpg" class="img-responsive post-image" alt="interview quotes">
+							 </p>
+							 <p>
+								 I also conducted a survey to gather quantitative data on my target users' goals, needs, and pain points -- and to confirm or reject any hypotheses from the start of the project. I would soon discover the importance of this step when the survey data I had gathered failed to support one of my initial hypotheses.  An early assumption was that people struggling with emotional wellbeing would find relief or encouragement from positive, inspirational quotes.  As it turns out, survey respondents tend to find "practical help or advice" most encouraging, followed by "feeling heard, a listening ear".
+								 <img src="images/showerthoughts-surveydata.jpg" class="img-responsive post-image" alt="survey data">
+							 </p>
+							 <p>
+								After synthesizing the data using an affinity diagram...<img src="images/showerthoughts-affinity.jpg" class="img-responsive post-image" alt="affinity diagram">
+							 </p>
+               <p>...I put a face to my insights by creating a user persona...<img src="images/showerthoughts-userpersona.jpg" class="img-responsive post-image" alt="user persona diagram"></p>
+							 <p>...and context for the user's main pain points by creating her journey.<img src="images/showerthoughts-userjourney.jpg" class="img-responsive post-image" alt="user journey diagram"></p><br>
+
+
+						<h1>Solution</h1>
+						<p>
+							During the ideation process, I considered how I might...</p><ul>
+								<li>
+									...make journaling like a therapy session?
+								</li>
+								<li>
+									...make mood and activity tracking feel more like self-care (and less like a chore)?
+								</li>
+								<li>
+									...keep the user focused while journaling?
+								</li>
+							</ul>
+
+							<p>
+							<img src="images/showerthoughts-hmw.jpg" class="img-responsive post-image" alt="ideation exercise">
+						</p>
+						<p>I then prioritized my various feature ideas using the MOSCOW method, taking into consideration impact vs effort.  From there, I determined what the minimum viable product would consist of. <img src="images/showerthoughts-moscow.jpg" class="img-responsive post-image" alt="feature prioritization chart"></p>
+						<p>
+							Meanwhile, I also read up on evidence-based methods for managing depression and anxiety.  Because my target users preferred practical help and advice, I believed my product would benefit them more if its tools could be backed up with empirical evidence.  I then learned about Cognitive Behavioral Therapy -- a technique that has been shown to be just as effective as medication, with additional long-term results.  Interestingly, CBT lends itself naturally to mood and activity tracking, as well as journaling, so I decided to incoporate CBT principles into my product.
+						</p>
+						<p>
+							Finally, I created the user flow to define the screens and actions needed for a user to complete their <b>main goals of recording their mood, recording their activities, and journaling their thoughts, followed by an activity to challenge and re-write those thoughts using CBT principles.</b><img src="images/showerthoughts-userflow.jpg" class="img-responsive post-image" alt="user flow diagram"></p>
+						</p><br>
+
+						<h1>Implementation</h1>
+						<h3>Lo-Fidelity</h3>
+						<p>
+							I made a quick paper prototype of my app's "happy path", but decided to pivot slightly by removing the "help with issue" user flow and instead adding a learning section after observing users hesitating when presented with three different options.  While this streamlined the happy path, I also believed the new user flow would better equip users to act as their own therapist, rather than rely on the app to solve problems for them.<img src="images/showerthoughts-lofi.jpg" class="img-responsive post-image" alt="lo-fi happy path"></p>
+						</p>
+						<h3>Mid-Fidelity</h3>
+						<p>
+							I iterated on my paper prototype with a wireframe one based on user feedback.<img src="images/showerthoughts-midfi.jpg" class="img-responsive post-image" alt="lo-to-mid-fi changes"></p>
+						<p>
+							In this example, I added a carousel with six categories of activities.  I had considered using a search bar instead, but I decided on this layout for two main reasons:
+						</p><ul>
+							<li>
+								 Recognition (selecting activities from a list) requires less cognitive load compared to recollection (typing activities into a search bar).
+							</li><li>
+								An important part of CBT includes incorporating various types of activities.  As the user scrolls through the carousel, I wanted to aid the user to reflect more broadly on their day while also subtly reminding them to live more holistically.
+							</li>
+						</ul><p>
+							Additionally, these categories could be useful in organizing and presenting user data as part of the statistics feature of the app.
+						</p>
+						<p>
+							I then conducted five usability tests.  100% stated that they liked the guided walk-thru of the happy path.  One user said that he "felt taken care of" -- an encouraging reaction!
+						</p>
+						<p>
+							However, 100% also had trouble with this screen.<img src="images/showerthoughts-midfi2.jpg" class="img-responsive post-image" alt="challenge thinking wireframe">
+						</p>
+						<p>
+							I decided I needed to include descriptive text to provide more clarity, and perhaps include onboarding in a future iteration.
+						</p>
+						<h3>Visual Design</h3>
+						<p>
+							This is the mood board<img src="images/showerthoughts-mood.jpg" class="img-responsive post-image" alt="mood board">
+						</p><p>
+							This is the style tile<img src="images/showerthoughts-tile.jpg" class="img-responsive post-image" alt="style tile">
+						</p><p>
+							This is the style guide.  Color psychology - peach and teal are "calming" and "reassuring", while yellow and navy were "confident" and "reliable".<img src="images/showerthoughts-styleguide.png" class="img-responsive post-image" alt="style guide">
+						</p>
+						<h3>High-Fidelity</h3>
+						<p>
+							paginated carousel filter<img src="images/showerthoughts-micro2.gif" class="img-responsive post-screen" alt="microinteraction">
+						</p><p>
+							sticky header because it's a lot of text<img src="images/showerthoughts-micro1.gif" class="img-responsive post-screen" alt="microinteraction">
+						</p><p>
+							I conducted desirability tests on the first hi-fi iteration by asking seven users to describe the app using five words from Jennifer Aaker's Brand Personality Framework.  <ul>
+								<li>
+									100% described the prototype as "contemporary" or "up-to-date" -- success!
+								</li><li>
+									6/7 described it as "sincere" or "honest" -- not one of my original brand attributes, but I'll take it.
+								</li><li>
+									4/7 described it as "cheerful" -- while I wanted the app to be "friendly", I felt that "cheerful" could potentially read too aggressive to users who may not be in a positive mood while using the app.  I decided to tone it down by changing a couple of the particularly cheerful illustrations.  My next step would be to A/B test the app with these new illustrations to check if I had indeed succeeded.
+								</li>
+							</ul>
+
+						</p><p>
+							Check out the interactive prototype below:
+						</p>
+						<ul id="body-link">
+						 <li><a href="https://marvelapp.com/4a7j534" target="_blank">Prototype</a></li>
+						</ul><br>
+
+						<h1>Next Steps</h1>
+						<p>
+							Persevere
+						</p>
+						<ul>
+							<li>
+								Continue to test Hi-Fi and iterate
+							</li><li>
+								Create onboarding screens to briefly explain CBT and the value of journaling
+							</li><li>
+								Build out other main features (stats, learn)
+							</li><li>
+								Consider microinteractions (Create, Read, Update, Delete) for all user input
+							</li><li>
+								Track logins, NPS, and membership metrics to determine whether or not the app is a success.
+							</li>
+						</ul>
+						<br><p>
+							Thanks for reading!  Feel free to check out my other projects:
+						</p>
+						<ul id="body-link">
+						 <li><a href="project-abcmarket.html">ABC Market</a></li><li><a href="project-regimen.html">Regimen</a></li>
+						</ul>
 						</div>
 			 </div>
       </div>
