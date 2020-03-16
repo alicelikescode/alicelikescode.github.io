@@ -22,31 +22,37 @@ html {
 ------------------------------------- */
 
 h1 {
-  color: #111112;
+  color: #333;
   font-size: 1.8rem;
   font-weight: 700;
 }
 
 h2 {
-  color: #ffffff;
-  font-size: 1rem;
+  color: #333;
+  font-size: 14px;
+  letter-spacing: 2px;
+  word-spacing: 1px;
+  text-transform: uppercase;
 }
 
 h3 {
-  color: #444;
+  color: #333;
   font-size: 14px;
-  letter-spacing: 4px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  word-spacing: 1px;
+  text-transform: uppercase;
 }
 
 h5 {
   font-weight: 400;
-  letter-spacing: 1px;
+  letter-spacing: 2px;
 }
 
 p {
   color: #333;
-  font-size: 16px;
-  line-height: 28px;
+  font-size: 18px;
+  line-height: 32px;
   word-spacing: 1px;
   letter-spacing: 1px;
 }
@@ -74,16 +80,15 @@ img {
 }
 
 b {
-	color: #262626;
 	font-weight: 400;
 }
 
 li{
-	color: #777;
-	font-size: 16px;
-	line-height: 28px;
-	word-spacing: 1px;
-	letter-spacing: 1px;
+  color: #333;
+  font-size: 18px;
+  line-height: 32px;
+  word-spacing: 1px;
+  letter-spacing: 1px;
 }
 
 /* preloader styles
