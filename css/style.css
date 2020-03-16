@@ -45,8 +45,11 @@ h3 {
 }
 
 h5 {
+  color: #333;
+  font-size: 14px;
   font-weight: 400;
   letter-spacing: 2px;
+  word-spacing: 1px;
 }
 
 p {
