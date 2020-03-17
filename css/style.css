@@ -20,7 +20,7 @@ h1 {
 color: #333;
 margin-bottom: 3rem;
 font-size: 3.5em;
-line-height: 3rem;
+line-height: 6rem;
 font-weight: 700;
 font-style: normal;
 letter-spacing: 0em;
@@ -237,10 +237,9 @@ text-decoration: none;
 transition: all 0.4s ease-in-out;
 }
 
-
 #nav-menu li a:hover,
 #nav-menu li a:focus {
-  color: #333;
+  color: #000;
 }
 
 .nav-text-light a {
