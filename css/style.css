@@ -1,7 +1,6 @@
-/* Body
-------------------------------------- */
+/* Body -------------------------------------*/
 body {
-		background: #ffffff;
+	background: #ffffff;
     font-family: 'Source Sans Pro', sans-serif;
     font-style: normal;
     font-weight: 300;
@@ -11,39 +10,41 @@ body {
 html,body {
   width: 100%;
   overflow-x: hidden;
-}
-
-html {
-  font-size: 100%;
+  font-size: 10px;
 }
 
 
-/* Typography
-------------------------------------- */
+/* Typography -------------------------------------*/
 
 h1 {
-  color: #333;
-  font-size: 1.8rem;
-  font-weight: 700;
-  letter-spacing: .5px;
-  word-spacing: .5px;
+color: #333;
+margin-bottom: 3rem;
+font-size: 3.5em;
+line-height: 3rem;
+font-weight: 700;
+font-style: normal;
+letter-spacing: 0em;
 }
 
 h2 {
-  color: #333;
-  font-size: 14px;
-  letter-spacing: 2px;
-  word-spacing: 1px;
-  text-transform: uppercase;
+color: #333;
+margin-bottom: 3rem;
+font-size: 1.6em;
+line-height: 1rem;
+font-weight: 300;
+font-style: normal;
+letter-spacing: 0.2em;
+text-transform: uppercase;
 }
 
 h3 {
-  color: #333;
-  font-size: 14px;
-  font-weight: 600;
-  letter-spacing: 1px;
-  word-spacing: 1px;
-  text-transform: uppercase;
+color: #333;
+margin-bottom: 3rem;
+font-size: 2.25em;
+line-height: 3rem;
+font-weight: 700;
+font-style: normal;
+letter-spacing: 0em;
 }
 
 h5 {
@@ -55,28 +56,22 @@ h5 {
 }
 
 p {
-  color: #333;
-  font-size: 18px;
-  line-height: 32px;
-  word-spacing: 1px;
-  letter-spacing: 1px;
+color: #333;
+margin-bottom: 3rem;
+font-size: 1.8em;
+line-height: 3rem;
+font-weight: 300;
+font-style: normal;
+letter-spacing: 0.02em;
 }
 
 a {
-  outline: none;
-  text-decoration: none;
+	color: #333;
+	text-decoration: underline;
 }
-a,
-a:hover,
-a:focus {
-  color: inherit;
-  text-decoration: none;
-  outline: 0;
-  -webkit-transition: all 0.25s ease-out;
-  -moz-transition: all 0.25s ease-out;
-  -ms-transition: all 0.25s ease-out;
-  -o-transition: all 0.25s ease-out;
-  transition: all 0.25s ease-out;
+
+a:hover {
+	color: #000;
 }
 
 img {
@@ -89,15 +84,17 @@ b {
 }
 
 li{
-  color: #333;
-  font-size: 18px;
-  line-height: 32px;
-  word-spacing: 1px;
-  letter-spacing: 1px;
+color: #333;
+margin-bottom: 1rem;
+font-family: Source Sans Pro;
+font-size: 1.8em;
+line-height: 3rem;
+font-weight: 300;
+font-style: normal;
+letter-spacing: 0.02em;
 }
 
-/* preloader styles
-/* ========================================== */
+/* Pre-loader styles -------------------------------------*/
 .preloader {
     position: fixed;
     top: 0;
@@ -140,8 +137,7 @@ li{
 
 
 
-/* navigation styles
-/* ========================================== */
+/* Navigation styles -------------------------------------*/
 .nav-container,
 nav {
   overflow: visible;
@@ -182,13 +178,13 @@ nav a {
 }
 
 .brand a {
-  color: #333;
-  font-size: 24px;
-  font-weight: 700;
-  opacity: 1;
-  text-decoration: none;
-  letter-spacing: .5px;
-  word-spacing: .5px;
+margin-bottom: 3rem;
+font-size: 2.8125em;
+line-height: 3rem;
+font-weight: 700;
+font-style: normal;
+letter-spacing: 0em;
+text-decoration: none;
 }
 
 .navicon {
@@ -226,16 +222,19 @@ nav ul.right {
 }
 
 #nav-menu li a {
-    color: #666;
-    font-size: 13px;
-    font-weight: 400;
-    letter-spacing: 2px;
-    padding: 8px 17px;
-    margin-right: 2px;
-    margin-left: 2px;
-    display: block;
-    text-decoration: none;
-    transition: all 0.4s ease-in-out;
+color: #666;
+margin-bottom: 3rem;
+margin-right: 2px;
+margin-left: 2px;
+font-size: .7em;
+line-height: 3rem;
+font-weight: 400;
+font-style: normal;
+letter-spacing: .15em;
+padding: 8px 17px;
+display: block;
+text-decoration: none;
+transition: all 0.4s ease-in-out;
 }
 
 
@@ -297,8 +296,7 @@ a.icon {
   text-align: center;
 }
 
-/* header section styles
-/* ========================================== */
+/* Header section styles -------------------------------------*/
 #header {
   -webkit-background-size: cover;
   background-size: cover;
@@ -405,8 +403,7 @@ a.icon {
     display: block;
 }
 
-/* about section styles
-/* ========================================== */
+/* About section styles -------------------------------------*/
 #about {
   padding-top: 5rem;
   padding-bottom: 8rem;
@@ -422,12 +419,11 @@ a.icon {
 }
 
 #about blockquote {
-  letter-spacing: 2px;
+  letter-spacing: .2px;
   margin-top: 20px;
 }
 
-/* blog & single post section styles
-/* ========================================== */
+/* Blog & single post section styles -------------------------------------*/
 #blog,
 #single-post {
   padding-top: 4rem;
@@ -525,8 +521,7 @@ a.icon {
 
 }
 
-/* footer section styles
-/* ========================================== */
+/* Footer section styles -------------------------------------*/
 footer {
   background: #141414;
   padding-top: 120px;
@@ -535,7 +530,7 @@ footer {
 }
 
 
-/* social icon */
+/* Social icon */
 .social-icon {
   padding: 0;
   margin: 0;
@@ -567,8 +562,7 @@ footer {
   background: #ffffff;
 }
 
-/* Responsive Mobile styles
-/* ========================================== */
+/* Responsive Mobile styles ------------------------------------- */
 @media (max-width: 980px) {
 
   .intro-inner {top: 30%;}
