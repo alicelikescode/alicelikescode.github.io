@@ -604,7 +604,7 @@ footer {
 
   h1 {
 	margin-bottom: 2rem;
-	font-size: 3.125em;
+	font-size: 2.5em;
 	line-height: 4rem;
 	font-weight: 700;
 	font-style: normal;
@@ -612,11 +612,15 @@ footer {
   }
   h3 {
 	margin-bottom: 2rem;
-	font-size: 2.5em;
-	line-height: 4rem;
+	font-size: 2em;
+	line-height: 2rem;
 	font-weight: 700;
-	font-style: normal;
+	font-style: normal; 
 	letter-spacing: 0em;
+  }
+  
+  .brand a {
+	font-size: 2em;
   }
 
   .filter-wrapper {
