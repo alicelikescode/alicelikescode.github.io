@@ -18,12 +18,12 @@ h1, h4{
 color: #f2f8f8;
 } 
 
-h2, h3, h5, b{
+h2, h3, h5{
 color: #313131;
 } 
 
-p, a, i, li{
-color: #313131;
+p, a, b, i, li{
+color: #111;
 } 
 
 h1 {
@@ -356,12 +356,12 @@ padding-right: 10px;
 
 #single-post blockquote {
 margin-top: 32px;
-color: #313131;
+color: #111;
 font-size: 1.8em;
 font-weight: 300;
 line-height: 3rem;
 font-style: italic;
-letter-spacing: 0.04em;
+letter-spacing: 0.02em;
 }
 
 .post-image {
